@@ -4,7 +4,7 @@ model : Yolo11n_custom
 
 class : 2(small robot, big robot)
 
-model input size : 3chx640x640
+model input size : 3x640x640
 
 model output size : 84x8400
 
