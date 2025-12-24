@@ -6,7 +6,7 @@ class : 2(small robot, big robot)
 
 model input size : 3x640x640
 
-model output size : 84x8400
+model output size : 6x8400
 
 dependencies : wsl2-ubuntu24.04, ROS2 Jazzy, TensorRT 10.14.1, Cuda 12.9.1, cudnn 8.9.7
 
