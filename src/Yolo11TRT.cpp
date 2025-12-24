@@ -120,7 +120,6 @@ void YOLO11TensorRT::warmup() {
 
     std::cout << "Warming up TensorRT engine..." << std::endl;
 
-    // ���� �Է� ������ ����
     size_t input_size = 1 * INPUT_CHANNELS * input_width_ * input_height_ * sizeof(float);
     std::vector<float> dummy_input(1 * INPUT_CHANNELS * input_width_ * input_height_, 0.5f);
 
@@ -130,8 +129,6 @@ void YOLO11TensorRT::warmup() {
     // Set output tensor address
     const char* output_name = engine_->getIOTensorName(1);
     context_->setTensorAddress(output_name, buffers_[1]);
-    
-    // ù ����� (����)
     
     cudaMemcpyAsync(buffers_[0], dummy_input.data(), input_size,cudaMemcpyHostToDevice, stream_);
 
