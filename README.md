@@ -10,7 +10,7 @@ model output size : 6x8400
 
 dependencies : wsl2-ubuntu24.04, ROS2 Jazzy, TensorRT 10.14.1, Cuda 12.9.1, cudnn 8.9.7
 
-TensorRT engine file : yolo11n.engine
+TensorRT engine file : yolo11n.engine(FP32 precision)
 
 yolo11_node : inference node using single image file
 
