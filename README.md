@@ -22,4 +22,4 @@ sub : perform an inference using an image topic received from pub node
 
 engine inference time(enqueueV3) < about 2msec on RTX 4070 Ti super
 
-total callback processing time < about 10msec on RTX 4070 Ti super
+total callback processing time(pre+infer+post) < about 10msec on RTX 4070 Ti super
