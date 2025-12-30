@@ -12,9 +12,9 @@ dependencies : wsl2-ubuntu24.04, ROS2 Jazzy, TensorRT 10.14.1, Cuda 12.9.1, cudn
 
 TensorRT engine file : yolo11n.engine(FP32 precision)
 
-yolo11_node : perform an inference using a single image file
+yolo11_node : perform an inference using a single image file(test.jpg)
 
-pub : publish a topic with image captured from video file(mp4)
+pub : publish a topic with image captured from a video file(robot_video.mp4)
 
 sub : perform an inference using an image topic received from pub node
 
