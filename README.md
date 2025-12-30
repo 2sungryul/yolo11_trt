@@ -16,7 +16,7 @@ yolo11_node : inference node using single image file
 
 pub : publish a topic with image captured from video file(mp4)
 
-sub : inference node using image topic received from pub node
+sub : perform an inference using an image topic received from pub node
 
 engine inference time < about 8msec on RTX 4070 Ti super
 
